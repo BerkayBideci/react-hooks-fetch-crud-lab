@@ -1,6 +1,39 @@
 {
   "questions": [
     {
+      "id": 1,
+      "prompt": "What special prop should always be included for lists of elements?",
+      "answers": [
+        "id",
+        "name",
+        "key",
+        "prop"
+      ],
+      "correctIndex": "0"
+    },
+    {
+      "id": 2,
+      "prompt": "A React component is a function that returns ______.",
+      "answers": [
+        "HTML",
+        "JSX",
+        "props",
+        "state"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "prompt": "Which event handler will run when a user is finished filling out a form?",
+      "answers": [
+        "onSubmit",
+        "onClick",
+        "onChange",
+        "onForm"
+      ],
+      "correctIndex": 0
+    },
+    {
       "id": 4,
       "prompt": "______ is a tool that transpiles JSX into valid JavaScript.",
       "answers": [
@@ -9,7 +42,7 @@
         "Webpack",
         "ES6"
       ],
-      "correctIndex": "3"
+      "correctIndex": 1
     },
     {
       "id": 5,
@@ -34,70 +67,15 @@
       "correctIndex": 1
     },
     {
-      "prompt": "a",
+      "prompt": "Example",
       "answers": [
-        "1",
-        "2",
-        "3",
-        "4"
+        "Example",
+        "Example",
+        "Example",
+        "Example"
       ],
-      "correctIndex": "2",
+      "correctIndex": 0,
       "id": 7
-    },
-    {
-      "prompt": "a",
-      "answers": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "correctIndex": "2",
-      "id": 8
-    },
-    {
-      "prompt": "aaa",
-      "answers": [
-        "aaaaaa",
-        "aaaaaaaaaaaaaaaaaaaaa",
-        "aa",
-        "aa"
-      ],
-      "correctIndex": 0,
-      "id": 9
-    },
-    {
-      "prompt": "aaa",
-      "answers": [
-        "aaaaaa",
-        "aaaaaaaaaaaaaaaaaaaaa",
-        "aa",
-        "aa"
-      ],
-      "correctIndex": 0,
-      "id": 10
-    },
-    {
-      "prompt": "aaa",
-      "answers": [
-        "aaaaaa",
-        "aaaaaaaaaaaaaaaaaaaaa",
-        "aa",
-        "aa"
-      ],
-      "correctIndex": 0,
-      "id": 11
-    },
-    {
-      "prompt": "",
-      "answers": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctIndex": 0,
-      "id": 12
     }
   ]
 }
